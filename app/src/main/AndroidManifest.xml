@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Investo">
         <activity
+            android:name=".login"
+            android:exported="false" />
+        <activity
+            android:name=".businessSignup"
+            android:exported="false" />
+        <activity
             android:name=".loginAs"
             android:exported="false" />
         <activity
